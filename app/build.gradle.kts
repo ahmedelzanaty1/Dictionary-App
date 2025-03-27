@@ -72,6 +72,9 @@ dependencies {
     implementation("com.squareup.okhttp3:okhttp:4.12.0")
     // room
     implementation("androidx.room:room-runtime:2.6.1")
+    implementation("androidx.room:room-ktx:2.6.1") // أضف هذا السطر
+
+    implementation("androidx.hilt:hilt-navigation-compose:1.2.0")
     ksp("androidx.room:room-compiler:2.5.0")
 
 }
